@@ -1,0 +1,44 @@
+.projectBody {
+    width: 60%;
+    padding: 4rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.projectBody h1 {
+    margin: 10px 0;
+    font-size: 78px;
+}
+
+.projectBody h2, h3, h4, h5, h6 {
+    color: var(--primary);
+    padding: 0.7rem 0;
+}
+
+.projectBody h2 {
+    font-size: 38px;
+    margin-bottom: 1rem;
+}
+
+.projectBody h3 {
+    font-size: 20px;
+}
+
+.step p {
+    margin-bottom: 1rem;
+}
+
+.pBold {
+    font-weight: 600;
+}
+
+.btn {
+    margin: 1rem 0.2rem;
+}
+
+.btn-group {
+    margin-top: 3rem;
+}

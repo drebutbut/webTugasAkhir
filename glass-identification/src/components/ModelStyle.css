@@ -1,0 +1,21 @@
+.formBubble {
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 25px;
+    background-color: var(--ternary);
+}
+
+table {
+    width: 100%;
+}
+
+th, td {
+    padding: 0.5rem;
+    width: 50%;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+}

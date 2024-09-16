@@ -1,0 +1,26 @@
+.homeBody {
+    width: 60%;
+    height: calc(100vh - 180px);
+    padding: 4rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeBody h1 {
+    margin: 10px 0;
+    font-size: 78px;
+}
+
+.pBold {
+    font-weight: 600;
+}
+
+.btn {
+    margin: 1rem 0.2rem;
+}
+
+.btn-group {
+    margin-top: 3rem;
+}

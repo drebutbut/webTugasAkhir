@@ -5,6 +5,7 @@ import CaraKerja from "./routes/CaraKerja";
 import Teknologi from "./routes/Teknologi";
 import Result from "./routes/Result";
 import Model from "./routes/Model";
+import About from "./routes/About";
 import {Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
       <Route path = "/project/result" element = {<Result />} />
 
       <Route path = "/predict" element = {<Model />} />
+
+      <Route path = "/about" element = {<About />} />
     </Routes>
   )
 }

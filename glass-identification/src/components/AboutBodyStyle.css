@@ -1,0 +1,9 @@
+.formBubble {
+    width: 90%;
+}
+
+@media screen and (max-width: 900px) {
+    .projectBody {
+        width: 90%;
+    }
+}

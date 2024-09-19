@@ -19,3 +19,13 @@ th, td {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 900px) {
+    .homeBody {
+        width: 90%;
+    }
+
+    .formBubble > form > tr > td > input {
+        width: 25%;
+    }
+}

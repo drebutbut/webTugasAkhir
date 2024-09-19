@@ -42,3 +42,14 @@
 .btn-group {
     margin-top: 3rem;
 }
+
+@media screen and (max-width: 950px) {
+    .homeBody h1 {
+        font-size: 54px;;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+}

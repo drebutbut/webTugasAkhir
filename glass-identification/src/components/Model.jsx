@@ -76,7 +76,7 @@ const ModelComponent = () => {
                 <div className="formBubble">
                     <form onSubmit={handleSubmit}>
                         <table>
-                            <tr class="row">
+                            <tr className="row">
                                 <th>
                                     <label htmlFor="RI">Refractive Index</label>
                                 </th>
@@ -157,8 +157,16 @@ const ModelComponent = () => {
 
                     {prediction && (
                         <div>
-                            <h3>Prediction Result:</h3>
-                            <p>{prediction}</p>
+                            <h3>Prediction Result: {prediction}</h3>
+                            {/* <Switch test={prediction}>
+                                <div value={1}>Satu</div>
+                                <div value={2}>Dua</div>
+                                <div value={3}>Tiga</div>
+                                <div value={4}>Empat</div>
+                                <div value={5}>Lima</div>
+                                <div value={6}>Enam</div>
+                                <div value={7}>Tujuh</div>
+                            </Switch> */}
                         </div>
                     )}
                 </div>

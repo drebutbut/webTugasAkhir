@@ -1,0 +1,15 @@
+.resultTable {
+  text-align: center;
+  background-color: var(--ternary);
+  padding: 1.5rem;
+  border-radius: 25px;
+}
+
+.bestResult {
+    color: var(--textColor);
+    background-color: var(--primary);
+}
+
+b {
+    font-weight: 600;
+}

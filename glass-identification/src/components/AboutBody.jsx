@@ -1,7 +1,6 @@
 import React from "react";
 import "./AboutBodyStyle.css";
 import "./ProjectBodyStyle.css";
-import "./ModelStyle.css";
 
 const AboutBody = () => {
     return (

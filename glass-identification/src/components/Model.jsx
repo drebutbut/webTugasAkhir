@@ -76,82 +76,84 @@ const ModelComponent = () => {
                 <div className="formBubble">
                     <form onSubmit={handleSubmit}>
                         <table>
-                            <tr className="row">
-                                <th>
-                                    <label htmlFor="RI">Refractive Index</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="RI" value={formData.RI} onChange={handleChange} />
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label htmlFor="Na">Sodium</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="Na" value={formData.Na} onChange={handleChange} />
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label htmlFor="Mg">Magnesium</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="Mg" value={formData.Mg} onChange={handleChange} />
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label htmlFor="Al">Aluminium</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="Al" value={formData.Al} onChange={handleChange} />
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label htmlFor="Si">Silicon</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="Si" value={formData.Si} onChange={handleChange} />
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label htmlFor="K">Potassium</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="K" value={formData.K} onChange={handleChange} />
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label htmlFor="Ca">Calcium</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="Ca" value={formData.Ca} onChange={handleChange} />
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label htmlFor="Ba">Ba</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="Ba" value={formData.Ba} onChange={handleChange} />
-                                </td>
-                            </tr>
-                            <tr>
-                                <th>
-                                    <label htmlFor="Fe">Iron</label>
-                                </th>
-                                <td>
-                                    <input type="number" name="Fe" value={formData.Fe} onChange={handleChange} />
-                                </td>
-                            </tr>
+                            <tbody>
+                                <tr className="row">
+                                    <th>
+                                        <label htmlFor="RI">Refractive Index</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="RI" value={formData.RI} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label htmlFor="Na">Sodium</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="Na" value={formData.Na} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label htmlFor="Mg">Magnesium</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="Mg" value={formData.Mg} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label htmlFor="Al">Aluminium</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="Al" value={formData.Al} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label htmlFor="Si">Silicon</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="Si" value={formData.Si} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label htmlFor="K">Potassium</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="K" value={formData.K} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label htmlFor="Ca">Calcium</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="Ca" value={formData.Ca} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label htmlFor="Ba">Ba</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="Ba" value={formData.Ba} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        <label htmlFor="Fe">Iron</label>
+                                    </th>
+                                    <td>
+                                        <input type="number" name="Fe" value={formData.Fe} onChange={handleChange} />
+                                    </td>
+                                </tr>
+                            </tbody>
                         </table>
 
                         <div className="buttonDiv">
-                            <button type="submit" class="btn">Periksa Jenis Kaca</button>
+                            <button type="submit" className="btn">Periksa Jenis Kaca</button>
                         </div>
                     </form>
 
